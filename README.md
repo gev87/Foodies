@@ -1,13 +1,22 @@
-This project leverages Next.js's app router, making use of structural files like "layout", "page", "not-found", and "error". CSS is handled using modules for better organization and maintainability. Key features include:
+This project leverages Next.js's app router, making use of structural files like "layout", "page", "not-found", and "error". CSS is handled using modules for better organization and maintainability.
+ Key features include:
 
 Server Actions and Components: Utilizing server actions and server components for efficient data handling and rendering.
+
 Database Interaction: Using the "better-sqlite3" package to interact with the SQLite database.
+
 Slug Generation: Implementing the "slugify" package to create slugs for URLs.
+
 XSS Protection: Using the "xss" package to sanitize input and prevent Cross-Site Scripting (XSS) attacks.
+
 Form Handling: Working with hooks like useActionState() and useFormStatus() for managing form state.
+
 File Uploads: Advanced usage of the 'file' HTML input element, including custom styling and using the FileReader object to upload specific types of images.
+
 Cache Revalidation: Implementing strategies to trigger cache revalidation.
+
 Metadata Management: Adding both static and dynamic metadata to enhance the application's SEO and user experience.
+
 This application demonstrates a comprehensive usage of Next.js features and best practices, providing a robust example of a full-stack web application.
 
 
