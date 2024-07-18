@@ -1,3 +1,7 @@
+Here we deeply use Next js app router , using its structural files like "layout", "page", "not-found" and "error" files, and handling css in modules.We use server actions , server components, "better-sqlite3" package to interact with database,"slugify" to add slags,"xss" to prevent Cross-Site Scripting (XSS) attacks, work with useActionState() and useFormStatus() hook.We also have an advanced usage of 'file' type html input element ,by changing default styling, using FileReader object to upload certein types of images , we also  triggering cache revalidation, and adding static and dyncamic metadata to the app.
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
